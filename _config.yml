@@ -3,7 +3,7 @@
 
 #Step 1: give your study group a name and a short description:
 title: Local Web
-description: "We are a group of students and researchers dedicated to learning about and sharing scientific coding techniques and knowledge in an effort to improve scientific research."
+description: "This project is about creating a bridge between newbies on Internet and remote volunteers who don’t have time to go and teach them regularly. We are localizing web literacy content to create an accessible place for school kids to be educated in their local language. The organization will produce short lectures in the form of YouTube videos in localized Indian language for teachers and parents to understand as an introduction, with a vision to encourage and teach other people to contribute and localize their web literacy content. The website will also include supplementary practice exercises and tools for educators. All resources will be open source and available to users of the website. The website and its content will be provided mainly in Indian dialects, but contributors are also encouraged to localize content in their local languages like French, Spanish, Botswana.."
 
 #Step 2: press the green 'Commit Changes' button at the bottom of this page.
 
@@ -18,7 +18,8 @@ description: "We are a group of students and researchers dedicated to learning a
 
 headlineSmall: "Welcome To our project!"
 headlineMain: "Let's Localize web"
-avatar: "img/logos/logo_icon_dark.png"
+#avatar: "img/logos/logo_icon_dark.png"
+avatar: "https://upload.wikimedia.org/wikipedia/commons/b/b9/An_Indian_traditional_dance_during_the_opening_ceremony_of_Namaste_Korea_at_the_Sejong_Center_in_Seoul_in_2011.jpg"
 
 # Setup Google Calendar
 # Usage:

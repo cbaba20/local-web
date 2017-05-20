@@ -16,10 +16,11 @@ description: "This project is about creating a bridge between newbies on Interne
 # Optional Configuration
 # None of these things need to be changed - but feel free!
 
+titleBackground: "https://upload.wikimedia.org/wikipedia/commons/c/c4/Indian_culture_dance.jpg"
 headlineSmall: "Welcome To our project!"
 headlineMain: "Let's Localize web"
-#avatar: "img/logos/logo_icon_dark.png"
-avatar: "https://upload.wikimedia.org/wikipedia/commons/b/b9/An_Indian_traditional_dance_during_the_opening_ceremony_of_Namaste_Korea_at_the_Sejong_Center_in_Seoul_in_2011.jpg"
+avatar: "img/logos/logo_icon_dark.png"
+
 
 # Setup Google Calendar
 # Usage:

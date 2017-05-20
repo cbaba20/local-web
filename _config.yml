@@ -16,7 +16,6 @@ description: "This project is about creating a bridge between newbies on Interne
 # Optional Configuration
 # None of these things need to be changed - but feel free!
 
-titleBackground: "https://upload.wikimedia.org/wikipedia/commons/c/c4/Indian_culture_dance.jpg"
 headlineSmall: "Welcome To our project!"
 headlineMain: "Let's Localize web"
 avatar: "img/logos/logo_icon_dark.png"

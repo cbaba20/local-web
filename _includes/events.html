@@ -5,8 +5,9 @@
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Events</h2>
                     <h3 class="section-subheading text-muted">
-                      Unless otherwise stated, all our events are held in Rm 408 on the 4th floor of the <a href="https://www.openstreetmap.org/way/14748316">
-                         Burton Tower in the McLennan Physics building</a>, at the corner of Huron Street and Russell Street.
+                      We are reusing <a href="https://www.youtube.com/channel/UCbFPVWaOPS4tZ8EnXgXWwUg"> Government Project Youtube Channel
+			 </a>videos for editing.
+                       
                     </h3>
                 </div>
             </div>
@@ -33,8 +34,8 @@
               {% else %}
               <div class="row">
                     <div class="col-lg-12 text-center">
-                        <a href="{{ site.github.owner_url }}/Events/issues" class="btn btn-xl eventSuggest">Suggest an Event</a>
-                        <a href="{{ site.github.url }}/CONTRIBUTING" class="btn btn-xl eventSuggest">How to Lead a Session</a>
+                        <a href="{{ site.github.owner_url }}/CONTRIBUTING.md" class="btn btn-xl eventSuggest">How to localize video</a>
+                        <a href="{{ site.github.url }}/issues" class="btn btn-xl eventSuggest">Check Current Issues</a>
                     </div>
               </div>
               {% endif %}
@@ -45,19 +46,19 @@
             {% else %}
             <div class="col-lg-12">
             {% endif %}
-              <h3 class="section-heading eventInstructions">Want to be notified of our upcoming events?</h3>
+              <h3 class="section-heading eventInstructions">Want to be notified of our work?</h3>
               <h3 class="section-subheading text-muted eventSubinstructions">Head over to <a href="{{ site.github.owner_url }}/Events">GitHub</a> and watch our repository, like this:</h3>
               <figure>
                 <img src="https://help.github.com/assets/images/help/notifications/watcher_picker.gif"></img>
-                <figcaption>Look in the top right-hand corner of <a href="{{ site.github.owner_url }}/Events">our repo</a>, and click 'Watching.' <br>You can undo this at any time in the same place.</figcaption>
+                <figcaption>Look in the top right-hand corner of <a href="{{ site.github.owner_url }}/issues">our repo</a>, and click 'Watching.' <br>You can undo this at any time in the same place.</figcaption>
               </figure>
             </div>
             {% if site.calendar_on %}
             <div class="col-lg-6">
-              <h3 class="section-heading eventInstructions">Subscribe to our events calendar!</h3>
-              <h3 class="section-subheading text-muted eventSubinstructions">We also invite you to follow <a href="{{ site.calendar_embed_url }}" target="_blank">our calendar</a>, where events will be posted. </h3>
-              <h3 class="section-subheading text-muted eventSubinstructions">If you use Google calendar, you can add our calendar by pressing the "Google Calendar" button at the bottom-right of <a href="{{ site.calendar_embed_url }}" target="_blank">this page</a>.</h3>
-              <h3 class="section-subheading text-muted eventSubinstructions">If you use another calendar app, you can copy and paste <a href="{{ site.calendar_ical_url }}">this address</a> into any calendar product that supports the iCal format.</h3>
+              <h3 class="section-heading eventInstructions">Become Volunteer to maintain website !</h3>
+              <h3 class="section-subheading text-muted eventSubinstructions">We also invite you to follow <a href="{{ site.calendar_embed_url }}" target="_blank">us on twitter</a>, where we will tweet about current status. </h3>
+             <!-- <h3 class="section-subheading text-muted eventSubinstructions">If you use Google calendar, you can add our calendar by pressing the "Google Calendar" button at the bottom-right of <a href="{{ site.calendar_embed_url }}" target="_blank">this page</a>.</h3>
+              <h3 class="section-subheading text-muted eventSubinstructions">If you use another calendar app, you can copy and paste <a href="{{ site.calendar_ical_url }}">this address</a> into any calendar product that supports the iCal format.</h3>-->
             </div>
             {% endif %}
         </div>

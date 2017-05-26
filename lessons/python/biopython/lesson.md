@@ -30,13 +30,14 @@ my_DNA = Seq(my_DNA,generic_dna) # convert string to Seq object
 my_DNA_reverse_complement = str(my_DNA.reverse_complement()) # reverse complement
 ```
 
-There are also options for searching, transcription, and translation
+There are also options for searching, transcription, and translation.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wW5k1ZezDhQ"  width="560" height="315" frameborder="0" 
+allowfullscreen></iframe>
 
   * parsing BLAST output: 
 
 This is an example function that extracts pretty much everything from the blast records object. To see all options, use `dir(NCBIXML.parse)`, or check the help: `help(NCBIXML.parse)`
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wW5k1ZezDhQ"  width="560" height="315" frameborder="0" 
-allowfullscreen></iframe>
+
 ```
 def parse_blast(resultfile):
     from Bio.Blast import NCBIXML

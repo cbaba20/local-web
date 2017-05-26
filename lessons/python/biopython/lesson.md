@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Biopython 10-minute demo'
+title: 'Introduction to Digital Devices'
 visible: true
 tags:
   - python
@@ -35,7 +35,8 @@ There are also options for searching, transcription, and translation
   * parsing BLAST output: 
 
 This is an example function that extracts pretty much everything from the blast records object. To see all options, use `dir(NCBIXML.parse)`, or check the help: `help(NCBIXML.parse)`
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wW5k1ZezDhQ"  width="560" height="315" frameborder="0" 
+allowfullscreen></iframe>
 ```
 def parse_blast(resultfile):
     from Bio.Blast import NCBIXML

@@ -4,9 +4,9 @@ title:
 visible: false
 tags:
   # languages
-  - python
-  - r
-  - git
+  - Gujarati
+  - English
+  - Hindi
   - misc
   # levels
   - beginner

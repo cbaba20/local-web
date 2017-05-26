@@ -28,7 +28,7 @@ from Bio.Alphabet import generic_dna # more sequence tools
 my_DNA = "GTTTTTGTACTCTCAAGATTTAAGTAACTGTACAAC"
 my_DNA = Seq(my_DNA,generic_dna) # convert string to Seq object
 my_DNA_reverse_complement = str(my_DNA.reverse_complement()) # reverse complement
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wW5k1ZezDhQ"  width="560" height="315" frameborder="0" 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wW5k1ZezDhQ"  width="800" height="450" frameborder="0" 
 allowfullscreen></iframe>
 ```
 
